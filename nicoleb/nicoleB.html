@@ -1,0 +1,84 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole's Portfolio 🍑✨</title>
+    <link rel="stylesheet" href="nicoleb.css">
+</head>
+<body>
+
+  
+
+    <!-- 🍑 Menu Button -->
+    <button class="menu-btn" onclick="openSidebar()">☰ Menu</button>
+
+    <!-- 🍑 Introduction (Landing Page) -->
+    <header id="intro">
+        <div class="hero-content">
+            <h1>Hiii! I'm Nicole 🍑</h1>
+            <p>A *college student, editor, and working student* with a passion for creativity & productivity!</p>
+        </div>
+        <img src="profile.png" alt="Nicole Brobo" class="profile-pic">
+    </header>
+
+    <!-- 🍑 Sidebar (Hidden Initially) -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="closeSidebar()">✖</button>
+        <h2 class="logo">🍑 Navigation 🍑</h2>
+        <ul>
+            <li><button onclick="showPage('projects')">Projects ✨</button></li>
+            <li><button onclick="showPage('work')">Work 💼</button></li>
+            <li><button onclick="showPage('contact')">Contact 💌</button></li>
+        </ul>
+    </div>
+
+    <!-- 🍑 Project Page -->
+    <section id="projects" class="hidden">
+        <h2>✨ My Projects ✨</h2>
+        
+        <div class="project-card">
+            <img src="planner.png" alt="Cute Student Planner">
+            <h3>📅 Cute Productivity Planner</h3>
+            <p>A soft pastel-themed planner to help students stay organized! 🌸</p>
+        </div>
+
+        <div class="project-card">
+            <img src="digital-menu.png" alt="Digital Menu for Mi Pastil">
+            <h3>🍰 Digital Menu for Mi Pastil</h3>
+            <p>A cute, easy-to-use menu for customers at Mi Pastil! 🍩</p>
+        </div>
+
+        <div class="project-card">
+            <img src="editorial.png" alt="Editorial Portfolio">
+            <h3>📝 Editorial & Content Creations</h3>
+            <p>Showcasing my editing, content writing, and design skills! 🌷</p>
+        </div>
+    </section>
+
+    <!-- 🍑 Work Page -->
+    <section id="work" class="hidden">
+        <h2>💼 My Work 💼</h2>
+        
+        <div class="project-card">
+            <img src="mi-pastil.png" alt="Mi Pastil Work">
+            <h3>🍛 Working at Mi Pastil</h3>
+            <p>Balancing work & studies while serving delicious pastil meals!</p>
+        </div>
+
+        <div class="project-card">
+            <img src="freelance.png" alt="Freelance Editing">
+            <h3>🎨 Freelance Editing</h3>
+            <p>Providing aesthetic layouts, posters, and digital content! ✨</p>
+        </div>
+    </section>
+
+    <!-- 🍑 Contact Page -->
+    <section id="contact" class="hidden">
+        <h2>💌 Contact Me 💌</h2>
+        <p>📩 Email: <a href="mailto:brobonicole@gmail.com">brobonicole@gmail.com</a></p>
+        <p>📱 Socials: <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </section>
+<script src="nicolebb.js"></script>
+</body>
+</html>
